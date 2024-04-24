@@ -39,6 +39,6 @@ app.get('/api/:animeName', (req, res)=>{
         console.log('Would you like to add this anime form')
     )
 })
-app.listen(PORT, ()=>{
+app.listen(process.env.PORT || PORT, ()=>{
     console.log(`The server is running on Port ${PORT}`)
 })
