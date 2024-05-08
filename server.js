@@ -1,9 +1,11 @@
 console.log('Anime app')
 const express = require('express')
 const app = express()
+const cors = require('cors')
 const PORT = 8000
+app.use(express.static('js'))
 
-
+app.use(cors())
 
 const animes ={
     'hunterxhunter':{
@@ -29,7 +31,7 @@ app.get('/', (req, res)=>{
 
 app.get('/api/:animeName', (req, res)=>{
     console.log(req.params.animeName)
-    const animeName = req.params.animeName.toString().toLowerCase()
+    const animeName = req.params.animeName.toLowerCase()
     res.json(animes[animeName])
 
     if(animes[animeName]){
