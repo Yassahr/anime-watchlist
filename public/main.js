@@ -16,7 +16,8 @@ async function findTheAnime(){
     document.querySelector('.episodes').textContent = `Episodes: ${data.episodes}`
     document.querySelector('.air').textContent = `Release Date: ${data.airDate}`
     document.querySelector('.genre').textContent = `Genre: ${data.genre}`
-    document.querySelector('.note').textContent = data.note? `Note:${data.note}`: ``
+    document.querySelector('.note').textContent = `Note:${data.note}`
+    document.querySelector('.img').src = `${data.gif}`
     console.log(data)
     }catch(error){
         console.log(error)
