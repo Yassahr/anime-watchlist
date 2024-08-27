@@ -91,7 +91,7 @@ app.get('/api/:animeName', (req, res)=>{
     
     //add something that includes-maybe includes? and every: irritat through array->find obj.name that  where each letter is included in ma,e/array
     const animeName = req.params.animeName.toLowerCase().split(' ').join('')
-
+//inside the if statement use findindex -> includes all of search criteria-> make it a helper function and return value
     console.log(animeName)
     
     if(animes[animeName]){
