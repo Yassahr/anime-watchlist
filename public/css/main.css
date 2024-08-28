@@ -36,11 +36,36 @@ body{
     display: flex;
     margin: auto;
     justify-content: center; 
+    color: white;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+      
 }
 .main{
     flex-direction: column;
 }
-
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.note{
+    background: radial-gradient(rgb(252,143,160), rgb(149,80,166));
+    color: white;
+}
+button{
+    background-color: rgb(188, 152, 210);
+    border-radius: 5px;
+}
+.image{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+img{
+    width:50%;
+}
 script{
     display: none;
 }
