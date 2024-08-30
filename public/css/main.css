@@ -69,3 +69,9 @@ img{
 script{
     display: none;
 }
+#animeName{
+    color: purple;
+}
+h1{
+    margin-top: 10%;
+}
