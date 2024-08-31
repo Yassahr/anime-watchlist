@@ -9,7 +9,7 @@
 
 <!-- Name -->
 <h1 align="center"><a href="https://github.com/Yassahr/anime-watchlist">Anime Watchlist(Top 10 Animes)</a></h1> 
-<image src="#">
+<image src="/public/imgs/anime-app.gif">
 <!-- Description -->
 <h3 align="left">This is a repository is to check if your favorite animes makes the top 10 spot for best animes of all time. Users must ype in the name of the animes in order to check if their animes has made the list</h3>
 <!-- Tech Used -->
